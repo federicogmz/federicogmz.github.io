@@ -1,0 +1,277 @@
+[
+  {
+    "search_term": "manual",
+    "id": "ACoAABeuxgEBs5SqrDlGxCUzvSuKqXAF9FBpka4",
+    "urn": "397329921",
+    "profile_link": "https://www.linkedin.com/in/federicogmz",
+    "profile_id": "federicogmz",
+    "name": "Federico Gómez",
+    "first_name": "Federico",
+    "last_name": "Gómez",
+    "location": "Medellín, Antioquia, Colombia",
+    "headline": "Geohazard Researcher | Natural Hazards | Early Warning Systems",
+    "estimated_age": 31,
+    "followers": 290,
+    "connections": 279,
+    "mutuals": 0,
+    "is_connection": "no",
+    "premium": false,
+    "creator": true,
+    "influencer": false,
+    "open_to_work": false,
+    "is_hiring": false,
+    "current_position": "Adjunct Professor",
+    "current_company": "Universidad EAFIT",
+    "past_company_1": "Sistema de Alerta Temprana SIATA",
+    "past_company_2": "Universidad Nacional de Colombia",
+    "school_1": "Universidad Nacional de Colombia",
+    "school_2": "Universidad Nacional de Colombia",
+    "top_skill_1": "Engineering",
+    "top_skill_2": "Geology",
+    "top_skill_3": "Higher Education Teaching",
+    "bio": null,
+    "experiences": [
+      {
+        "start_date": "2024-09-15",
+        "end_date": null,
+        "duration": "10 mos",
+        "title": "Adjunct Professor",
+        "company": "Universidad EAFIT",
+        "location": "Medellín, Antioquia, Colombia · On-site",
+        "emp_type": "contract",
+        "description": ""
+      },
+      {
+        "start_date": "2021-07-15",
+        "end_date": null,
+        "duration": "4 yrs",
+        "title": "Geoscientist",
+        "company": "Sistema de Alerta Temprana SIATA",
+        "location": "Medellín Metropolitan Area · Hybrid",
+        "emp_type": "full-time",
+        "description": ""
+      },
+      {
+        "start_date": "2017-09-15",
+        "end_date": "2022-12-15",
+        "duration": "5 yrs 4 mos",
+        "title": "Geoscientist",
+        "company": "Universidad Nacional de Colombia",
+        "location": "Medellín, Antioquia, Colombia · Remote",
+        "emp_type": "full-time",
+        "description": ""
+      }
+    ],
+    "schools": [
+      {
+        "start_date": "2020-06-15",
+        "end_date": "2022-06-15",
+        "school": "Universidad Nacional de Colombia",
+        "degree": "Master's degree, Water Resources Engineering"
+      },
+      {
+        "start_date": "2012-06-15",
+        "end_date": "2017-06-15",
+        "school": "Universidad Nacional de Colombia",
+        "degree": "Bachelor's degree, Geological and Earth Sciences/Geosciences"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Higher Education Teaching",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Geotechnical Engineering",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "GIS Analysis",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Spatial Analysis",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Python (Programming Language)",
+        "endorsements": 0,
+        "passed_assessment": true
+      },
+      {
+        "name": "Statistical Data Analysis",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Numerical Simulation",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Machine Learning",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Geographic Information Systems (GIS)",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "DASH",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Data Science",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Cascading Style Sheets (CSS)",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Environmental Impact Assessment",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Analytical Skills",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Ciencia de datos",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Ciencias ambientales",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Hidrología",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Meteorología",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Analítica de datos",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Ingeniería",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Engineering",
+        "endorsements": 2,
+        "passed_assessment": null
+      },
+      {
+        "name": "Project Planning",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Geology",
+        "endorsements": 2,
+        "passed_assessment": null
+      },
+      {
+        "name": "Project Management",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Geological Mapping",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Grass GIS",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "ArcGIS",
+        "endorsements": 0,
+        "passed_assessment": true
+      },
+      {
+        "name": "Microsoft Office",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "RocScience",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Python",
+        "endorsements": 0,
+        "passed_assessment": true
+      },
+      {
+        "name": "R",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Leadership",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Team Leadership",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "English",
+        "endorsements": 0,
+        "passed_assessment": null
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Applied Data Science with Python Specialization",
+        "issuer": "University of Michigan",
+        "date_issued": "Oct 2020",
+        "cert_id": "2X927MF5GSNC",
+        "cert_link": "https://www.coursera.org/account/accomplishments/specialization/2X927MF5GSNC"
+      }
+    ],
+    "languages": [
+      "English",
+      "German"
+    ],
+    "emails_in_bio": null,
+    "potential_emails": null,
+    "profile_photo": "https://media.licdn.com/dms/image/v2/D4E03AQENiRi-iqX-Vg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718229170047?e=1755734400&v=beta&t=rsb93erGkovra_JfpWfFkUPimTGBm4gcOZe0E5OZArM",
+    "banner_photo": "https://media.licdn.com/dms/image/v2/C5616AQERXfSWDzFDlg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1517547657134?e=1755734400&v=beta&t=gO38xHrhhpKgZbc0eFqB8lBnUgPOKGD6Aq_4xltO_5Q",
+    "connection_created_at": null,
+    "connection_email": "fejgomezca@unal.edu.co",
+    "connection_phone_numbers": [
+      "3057914297"
+    ],
+    "connection_websites": [],
+    "connection_street_address": null,
+    "connection_birthday": "May 22"
+  }
+]

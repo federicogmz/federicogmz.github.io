@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Federico Gómez – geohazards engineer.">
+    <meta name="theme-color" content="#121212">
+    <title>Federico Gómez | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-k5He0..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="site-nav">
+        <ul class="nav-links">
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#education">Education</a></li>
+            <li><a class="nav-link" href="#work">Work</a></li>
+            <li><a class="nav-link" href="#repositories">Repos</a></li>
+            <li><a class="nav-link" href="#publications">Publications</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <img id="hero-photo" alt="Profile Photo" class="hero-photo">
+            <div class="hero-text">
+                <h1 id="hero-name"></h1>
+                <p id="hero-headline" class="tagline"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div id="about-bio" class="section-desc">
+            <p>I am a Colombian geoscientist dedicated to understanding and mitigating geological and
+                hydrometeorological hazards in the tropical Andes.</p>
+            <p>My academic path combines a B.Sc. in Geological Engineering (2017) and an M.Sc. in Water Resources
+                Engineering (2022) from the Universidad Nacional de Colombia.</p>
+            <p>From 2017 to 2022 I worked at the same university, producing susceptibility maps, numerical simulations
+                and satellite-based analyses for landslides, floods and debris flows across diverse Colombian terrains.
+            </p>
+            <p>Since 2021 I have been part of Medellín’s Sistema de Alerta Temprana (SIATA), where I design real-time
+                algorithms that fuse field instrumentation, remote sensing and machine-learning to issue early warnings
+                for landslide events.</p>
+            <p>In 2024 I joined Universidad EAFIT as an adjunct professor, leading a postgraduate course on geotechnical
+                instrumentation that blends theory with hands-on interpretation of sensor data from an active slope case
+                study.</p>
+            <p>My research has yielded peer-reviewed publications on concatenated hydrometeorological hazards,
+                rainfall-induced landslide risk under climate change, morphometric controls on debris-flow basins, and
+                earthquake-triggered landslides.</p>
+            <p>I routinely manage interdisciplinary projects, process large geospatial datasets in Python and R, and
+                translate technical findings into actionable guidance for risk managers.</p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <p class="section-desc">Academic background highlighting degrees and institutions.</p>
+        <div id="education-list" class="portfolio-grid"></div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="work" class="section">
+        <h2>Work</h2>
+        <p class="section-desc">Professional experience and roles I've held.</p>
+        <div id="work-list" class="portfolio-grid"></div>
+        <div id="skills-list" class="skills-badges"></div>
+    </section>
+
+    <!-- Repositories Section -->
+    <section id="repositories" class="section">
+        <h2>Repositories</h2>
+        <p class="section-desc">Most recently updated public code repositories on GitHub, reflecting ongoing work and
+            contributions.</p>
+        <div id="repo-list">
+            <!-- GitHub repos will be loaded here -->
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section">
+        <h2>Publications</h2>
+        <p class="section-desc">Key publications from my research career. Click to explore the details.</p>
+        <div id="publications-list">Loading publications...</div>
+    </section>
+
+    <!-- Combined Contact & Footer -->
+    <footer class="section" id="contact-footer">
+        <h2>Contact</h2>
+        <p class="section-desc">Feel free to reach out via email or connect with me on LinkedIn, GitHub, Google Scholar,
+            and ORCID.</p>
+        <p>I’m always happy to discuss opportunities, collaborations, or just chat about geotechnical modeling. Reach
+            out via:</p>
+        <div id="contact-links" class="contact-links"></div>
+        <p class="footer-copy">&copy; 2025 Federico Gómez Cardona</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

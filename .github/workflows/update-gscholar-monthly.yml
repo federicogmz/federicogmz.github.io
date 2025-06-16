@@ -1,0 +1,33 @@
+name: Monthly Data Refresh
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'  # Monthly on the 1st at 00:00 UTC
+
+jobs:
+  refresh-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install JS dependencies
+        run: npm ci
+
+      - name: Fetch Google Scholar publications
+        run: npm run fetch-scholar
+
+      - name: Commit updated publications
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'chore: monthly publications refresh'
+          file_pattern: |-
+            data/gscholar.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,8 @@
+# Ignore local environment and backend files
+.venv
+server.js
+node_modules/
+.DS_Store
+
+# Private sessions
+*.pkl

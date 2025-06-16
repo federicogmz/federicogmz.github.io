@@ -1,0 +1,171 @@
+[
+  {
+    "title": "Rainfall-intensity effect on landslide hazard assessment due to climate change in north-western Colombian Andes",
+    "link": "http://www.scielo.org.co/scielo.php?pid=S0120-62302022000200051&script=sci_arttext",
+    "authors": [
+      "Edier Aristizábal",
+      "Edwin F Garcia",
+      "Roberto J Marin",
+      "Federico Gómez",
+      "Juan Guzmán-Martínez"
+    ],
+    "date": [
+      2022,
+      6
+    ],
+    "journal": "Revista Facultad de Ingeniería Universidad de Antioquia",
+    "pages": "51-66",
+    "publisher": "Universidad de Antioquia",
+    "description": "Landslides triggered by rainfall are one of the most frequent causes of disasters in tropical countries and mountainous terrains. Recent studies show an upsurge in landslide occurrence as an expected impact of human-induced climate change. This paper presents the analysis and implementation of two different physically-based models, SHALSTAB and TRIGRS, to evaluate the effect of rainfall on landslide hazard assessment in the north-western Colombian Andes. Intensity-Duration-Frequency curves were used in climate change scenarios for different return periods. According to the results, although higher rainfall intensities increase, landslide occurrence does not escalate in a direct or proportional relationship. Considering a steady infiltration process (SHALSTAB), the results show an expansion of d unstable areas, compared with a transient infiltration process (TRIGRS). A greater influence of rainfall duration instead of rainfall intensity was observed. The results highlight the need for studies that incorporate the scenarios of variability and climate change in the hazard assessment and land planning in the long term.",
+    "citations": 40
+  },
+  {
+    "title": "Morphometrical analysis of torrential flows-prone catchments in tropical and mountainous terrain of the Colombian Andes by machine learning techniques",
+    "link": "https://link.springer.com/article/10.1007/s11069-020-04346-5",
+    "authors": [
+      "María Isabel Arango",
+      "Edier Aristizábal",
+      "Federico Gómez"
+    ],
+    "date": [
+      2021,
+      1
+    ],
+    "journal": "Natural Hazards",
+    "volume": "105",
+    "pages": "983-1012",
+    "publisher": "Springer Netherlands",
+    "description": "               Assessment of susceptibility to torrential flows at the catchment scale is a necessary step for prioritising zones that can be identified by hazard and risk maps. In the Andean region of Colombia, where these phenomena are common and highly destructive, few studies have been carried out on the subject. Considering that the effects of torrential flows will likely increase in the future due to extreme weather events and urbanisation of low prone areas, effective land management plans should include the assessment of susceptibility to this type of event. In this study, machine learning techniques were applied with morphometric parameters of mountainous catchments in the northern Colombian Andes to analyse torrential susceptibility in tropical environments. Several feature selection methods were implemented using statistics to evaluate the relationship between morphometric parameters and torrential …",
+    "citations": 31
+  },
+  {
+    "title": "Hazard analysis of hydrometeorological concatenated processes in the Colombian Andes",
+    "link": "https://link.springer.com/chapter/10.1007/978-3-030-34397-2_2",
+    "authors": [
+      "Edier Aristizábal",
+      "María Isabel Arango Carmona",
+      "Federico José Gómez",
+      "Sandra Milena López Castro",
+      "Alfredo De Villeros Severiche",
+      "Andrés Felipe Riaño Quintanilla"
+    ],
+    "date": [
+      2020
+    ],
+    "journal": "Advances in Natural Hazards and Hydrological Risks: Meeting the Challenge: Proceedings of the 2nd International Workshop on Natural Hazards (NATHAZ'19), Pico Island—Azores 2019",
+    "pages": "7-10",
+    "publisher": "Springer International Publishing",
+    "description": " The Colombian Andean region is characterized for its tropical climate and mountainous topography, where common short-duration and high-intensity rainfall events trigger progressive hydrometeorological phenomena that cause rapid concentration of streamflow as flash floods which, as their erosion capacity increases, may remobilize sediments and trigger slides creating debris floods torrents. When rainfall events exceed critical slope stability thresholds, clusters of landslides are triggered, especially on coarse residual soils increasing the sediment concentration and altering the fluid properties into a viscous mass surge of water and sediments. The final deposition of these materials is often located in basin fans that are usually highly populated resulting in huge disasters with high economic losses and fatalities. The most recent reports in Colombia include the events of Salgar in May of 2015 with 104 fatalities …",
+    "citations": 15
+  },
+  {
+    "title": "Análisis de la amenaza por movimientos en masa detonados por sismo en los Andes colombianos, caso de estudio: Barbosa (Antioquia)",
+    "link": "http://www.scielo.org.co/scielo.php?pid=S0124-81702020000200031&script=sci_arttext",
+    "authors": [
+      "Edier Vicente Aristizábal Giraldo",
+      "Federico José Gómez Cardona",
+      "Edwin Fabián García Aristizábal",
+      "Juan Carlos Guzmán Martínez"
+    ],
+    "date": [
+      2020,
+      12
+    ],
+    "journal": "Ciencia e Ingeniería Neogranadina",
+    "volume": "30",
+    "pages": "31-47",
+    "publisher": "Universidad Militar Nueva Granada",
+    "description": "los sismos constituyen uno de los mayores detonantes de movimientos en masa en el mundo. Diversas metodologías han sido desarrolladas para predecir y evaluar estos fenómenos desde enfoques estadísticos, físicos o combinación de ambos. En el presente estudio se analiza la amenaza por movimientos en masa detonados por sismos en el municipio de Barbosa, ubicado en los Andes colombianos, a través de los dos métodos más implementados: el análisis seudoestático y el método de Newmark, debido a su fácil uso, larga trayectoria y aceptación investigativa en los análisis de equilibrio límite. Los resultados permiten entender la respuesta geomecánica del subsuelo ante sismos en condiciones tanto saturadas como secas. El caso de estudio presentado señala un gran potencial de las metodologías mencionadas como herramientas de análisis de la amenaza de movimientos en masa detonados por sismos en zonas montañosas. Como se ha presentado en diferentes estudios, el porcentaje de áreas inestables se encuentra directamente relacionado con el grado de saturación del terreno y la pendiente. Para el municipio de Barbosa, y utilizando el método de Newmark, el área inestable alcanza el 59% del municipio en condiciones saturadas y 17% en condiciones secas; mientras que utilizando el método seudoestático representan el 22% y 8% del municipio, respectivamente.",
+    "citations": 7
+  },
+  {
+    "title": "Regional and detailed multi-hazard assessment of debris-flow processes in the Colombian Andes",
+    "link": "https://meetingorganizer.copernicus.org/EGU21/EGU21-13139.html?pdf=",
+    "authors": [
+      "Federico Gómez Cardona",
+      "Edier Aristizábal Giraldo",
+      "Maria Isabel Arango",
+      "Martin Mergili"
+    ],
+    "date": [
+      2021,
+      3,
+      3
+    ],
+    "publisher": "Copernicus Meetings",
+    "description": "Debris-flow processes are highly destructive phenomena that endanger life and infrastructure located in mountainous areas. The Colombian Andes are especially susceptible to this type of processes. Disaster databases include 1,387 channelized debris flow, debris flood, and flash flood records between 1921 and 2020, causing 3,332 deaths and affecting 1,152,613 people. These statistics show the importance of carrying out a regional debris flow hazard assessment to prioritize resources and actions to reduce risk.One of the main challenges when evaluating debris-flow processes hazard is their multi-hazard nature: they are understood as part of a concatenated phenomenon at catchment scale, including cascading effects of landslides, flash floods, debris floods and channelised debris flows. In this study, a multi-hazard approach was implemented to assess debris-flow processes susceptibility and hazard on …",
+    "citations": 2
+  },
+  {
+    "title": "Evaluación de la amenaza por avenidas torrenciales en el departamento de Antioquia a escala de cuenca",
+    "link": "https://books.google.com/books?hl=en&lr=&id=5kjAEAAAQBAJ&oi=fnd&pg=PA92&dq=info:aHzwNeXLWV0J:scholar.google.com&ots=Vmtii6GiNL&sig=mKxndbwbIT7NT8Ll9B__FfNs6U8",
+    "authors": [
+      "Edier Aristizábal",
+      "Federico Gómez Cardona",
+      "María Isabel",
+      "Arango Carmona"
+    ],
+    "date": [
+      2023,
+      5,
+      23
+    ],
+    "journal": "CONTRIBUCIONES LOCALES, REGIONALES Y NACIONALES",
+    "pages": "92",
+    "description": "Las avenidas torrenciales son eventos altamente destructivos y frecuentes en ambientes tropicales y terrenos montañosos como Colombia, donde es común la presencia de asentamientos humanos ubicados sobre abanicos torrenciales. Esta combinación de factores crea un escenario crítico, donde las avenidas torrenciales son amenazas naturales que deben entenderse adecuadamente e incorporarse en los planes de ordenamiento territorial. El presente estudio propone una metodología para la priorización de cuencas con susceptibilidad y amenaza ante avenidas torrenciales, con un enfoque regional que permite comprender y caracterizar dichos eventos. La susceptibilidad de más de 3,000 cuencas del departamento de Antioquia es caracterizada a través de factores como morfometría, análisis de estabilidad de laderas y probabilidades de ocurrencia de la precipitación como factor detonante. Los resultados muestran que cerca de la mitad de las cuencas son de carácter torrencial, y que el 11% de ellas se encuentra en la categoría más alta de amenaza. Estas cuencas críticas deben priorizarse para realizar estudios a mayor detalle, que permitan definir con precisión las potenciales áreas de afectación y el nivel de riesgo asociado para los elementos expuestos."
+  },
+  {
+    "title": "Regional and detailed multi-hazard assessment of debris-flow processes in the Colombian Andes",
+    "link": "https://ui.adsabs.harvard.edu/abs/2021EGUGA..2313139G/abstract",
+    "authors": [
+      "Federico Gómez Cardona",
+      "Edier Aristizábal Giraldo",
+      "Maria Isabel Arango",
+      "Martin Mergili"
+    ],
+    "date": [
+      2021,
+      4
+    ],
+    "journal": "EGU General Assembly Conference Abstracts",
+    "pages": "EGU21-13139",
+    "description": "Debris-flow processes are highly destructive phenomena that endanger life and infrastructure located in mountainous areas. The Colombian Andes are especially susceptible to this type of processes. Disaster databases include 1,387 channelized debris flow, debris flood, and flash flood records between 1921 and 2020, causing 3,332 deaths and affecting 1,152,613 people. These statistics show the importance of carrying out a regional debris flow hazard assessment to prioritize resources and actions to reduce risk. One of the main challenges when evaluating debris-flow processes hazard is their multi-hazard nature: they are understood as part of a concatenated phenomenon at catchment scale, including cascading effects of landslides, flash floods, debris floods and channelised debris flows. In this study, a multi-hazard approach was implemented to assess debris-flow processes susceptibility and hazard on …"
+  },
+  {
+    "title": "Analysis of the Threat from Mass Wasting Triggered by Earthquakes in the Colombian Andes, Case Study: Barbosa (Antioquia)",
+    "link": "http://www.scielo.org.co/scielo.php?pid=S0124-81702020000200031&script=sci_abstract&tlng=en",
+    "authors": [
+      "Edier Vicente Aristizábal Giraldo",
+      "Federico José Gómez Cardona",
+      "Edwin Fabián García Aristizábal",
+      "Juan Carlos Guzmán Martínez"
+    ],
+    "date": [
+      2020,
+      12
+    ],
+    "journal": "Ciencia e Ingeniería Neogranadina",
+    "volume": "30",
+    "pages": "31-47",
+    "description": "ARISTIZABAL GIRALDO, Edier Vicente; GOMEZ CARDONA, Federico José; GARCIA ARISTIZABAL, Edwin Fabián and GUZMAN MARTINEZ, Juan Carlos. Analysis of the Threat from Mass Wasting Triggered by Earthquakes in the Colombian Andes, Case Study: Barbosa (Antioquia). Cienc. Ing. Neogranad.[online]. 2020, vol. 30, n. 2, pp. 31-47. Epub Dec 09, 2020. ISSN 0124-8170. https://doi. org/10.18359/rcin. 4304."
+  },
+  {
+    "title": "Modelling Debris Flood Propagation in Scarce Data Terrain, Case Study in the Colombian Andes",
+    "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4928955",
+    "authors": [
+      "Federico Gomez Cardona",
+      "Edier Aristizábal",
+      "Martin Mergili"
+    ],
+    "journal": "Case Study in the Colombian Andes",
+    "description": "Debris floods are hazardous phenomena with long travel distances, high velocities, and impact forces. They are common in steep channels and characterized by sediment concentrations that range from 20% to 50% and peak discharges comparable to flooding. Several of the affected watersheds lack relevant data, making robust hazard and risk analysis hard to implement. Combined with high vulnerability and low capacity and funding for successful risk management from government and institutions, this leads to deadly disasters. In this study, three different models are compared from three of the main approaches to the simulation: empirical, hydraulic, and mass-routing. Flow-R, Iber, and r. avaflow are employed in the simulation of a debris flood that took place in Salgar (Colombia) in 2015, where 112 landslides were triggered by the unusual occurrence of two rainstorms. The subsequent debris flood killed more than 100 people, and the cost of reconstruction was over USD 12 million. All models provide conservative results and good recall (greater than 65%) compared with the observed impacted area. Flow-R parameters are tuned to local conditions and provide a good, conservative yet probabilistic spatial prediction. Iber adjusts best to the particular case with mean velocities from 2 to 4 m/s and depths around 2 m, while r. avaflow shows highly conservative results with mean velocities from 2 to 10 m/s and depths varying from 1 to 7 m, making it better suited for long-term risk analysis."
+  },
+  {
+    "title": "Debris-flow processes routing in mountain terrains and tropical environments for hazard assessment",
+    "link": "https://scholar.google.com/scholar?cluster=17704548562646450902&hl=en&oi=scholarr",
+    "authors": [
+      "Federico Gomez Cardona"
+    ],
+    "description": "Debris-flow processes are complex natural phenomena. As transitional processes, they fall on the spectrum between floods and mass movements. Because of this dualism, debris-flow processes have been regarded differently depending on the expertise and background of the scientist or professional studying them. DesInventar, a disaster database, reports that Colombia saw 1,387 channelized debris flows, debris floods, and flash floods between 1921 and 2020. These events resulted in 3,332 fatalities and more than 1.1 million people being impacted. The current work attempts to analyse the transit of debris-flow processes using various computational techniques, while accounting for the effect of geomorphology on hazard comprehension. It aims to investigate various methodologies and compare them using validation criteria, as well as to investigate the influence of sediment concentration on flow behaviour and simulation tool and parametrization. Two case studies in the Colombian Andes are analysed: the debris flood that occurred in Salgar, Antioquia in 2015, resulting in 112 landslides caused by the uncommon occurrence of two rainstorms and the Potrerito debris flow in Bello, Antioquia, caused by an intense storm with extraordinary maximum instantaneous intensities."
+  }
+]

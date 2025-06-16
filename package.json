@@ -1,0 +1,15 @@
+{
+    "name": "personal-portfolio",
+    "version": "1.0.0",
+    "scripts": {
+        "fetch-scholar": "node scripts/fetch_scholar.js --id O0ef_-YAAAAJ --out data/gscholar.json"
+    },
+    "dependencies": {
+        "node-html-parser": "^7.0.1",
+        "node-fetch": "^3.3.0",
+        "yargs": "^17.7.2",
+        "html-entities": "^2.3.3",
+        "iconv-lite": "^0.6.3"
+    },
+    "type": "module"
+}
