@@ -9,10 +9,10 @@
     "first_name": "Federico",
     "last_name": "Gómez",
     "location": "Medellín, Antioquia, Colombia",
-    "headline": "Geohazard Researcher | Natural Hazards | Early Warning Systems",
+    "headline": "Geohazard Researcher | Remote Sensing & UAS | Early Warning Systems",
     "estimated_age": 31,
-    "followers": 290,
-    "connections": 279,
+    "followers": 293,
+    "connections": 282,
     "mutuals": 0,
     "is_connection": "no",
     "premium": false,
@@ -20,21 +20,41 @@
     "influencer": false,
     "open_to_work": false,
     "is_hiring": false,
-    "current_position": "Adjunct Professor",
-    "current_company": "Universidad EAFIT",
-    "past_company_1": "Sistema de Alerta Temprana SIATA",
+    "current_position": "Remote Sensing Lead",
+    "current_company": "Sistema de Alerta Temprana del Valle de Aburrá SIATA",
+    "past_company_1": "Universidad EAFIT",
     "past_company_2": "Universidad Nacional de Colombia",
     "school_1": "Universidad Nacional de Colombia",
     "school_2": "Universidad Nacional de Colombia",
     "top_skill_1": "Engineering",
     "top_skill_2": "Geology",
-    "top_skill_3": "Higher Education Teaching",
+    "top_skill_3": "Remote Sensing",
     "bio": null,
     "experiences": [
       {
-        "start_date": "2024-09-15",
+        "start_date": "2025-07-11",
         "end_date": null,
-        "duration": "10 mos",
+        "duration": "1 mo",
+        "title": "Remote Sensing Lead",
+        "company": "Sistema de Alerta Temprana del Valle de Aburrá SIATA",
+        "location": "Medellín, Antioquia, Colombia",
+        "emp_type": null,
+        "description": ""
+      },
+      {
+        "start_date": "2021-07-11",
+        "end_date": "2025-07-11",
+        "duration": "4 yrs 1 mo",
+        "title": "Geoscientist",
+        "company": "Sistema de Alerta Temprana del Valle de Aburrá SIATA",
+        "location": "Medellín Metropolitan Area",
+        "emp_type": null,
+        "description": ""
+      },
+      {
+        "start_date": "2024-09-11",
+        "end_date": null,
+        "duration": "11 mos",
         "title": "Adjunct Professor",
         "company": "Universidad EAFIT",
         "location": "Medellín, Antioquia, Colombia · On-site",
@@ -42,18 +62,8 @@
         "description": ""
       },
       {
-        "start_date": "2021-07-15",
-        "end_date": null,
-        "duration": "4 yrs",
-        "title": "Geoscientist",
-        "company": "Sistema de Alerta Temprana SIATA",
-        "location": "Medellín Metropolitan Area · Hybrid",
-        "emp_type": "full-time",
-        "description": ""
-      },
-      {
-        "start_date": "2017-09-15",
-        "end_date": "2022-12-15",
+        "start_date": "2017-09-11",
+        "end_date": "2022-12-11",
         "duration": "5 yrs 4 mos",
         "title": "Geoscientist",
         "company": "Universidad Nacional de Colombia",
@@ -64,19 +74,39 @@
     ],
     "schools": [
       {
-        "start_date": "2020-06-15",
-        "end_date": "2022-06-15",
+        "start_date": "2020-07-11",
+        "end_date": "2022-07-11",
         "school": "Universidad Nacional de Colombia",
         "degree": "Master's degree, Water Resources Engineering"
       },
       {
-        "start_date": "2012-06-15",
-        "end_date": "2017-06-15",
+        "start_date": "2012-07-11",
+        "end_date": "2017-07-11",
         "school": "Universidad Nacional de Colombia",
         "degree": "Bachelor's degree, Geological and Earth Sciences/Geosciences"
       }
     ],
     "skills": [
+      {
+        "name": "Remote Sensing",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Geospatial Data",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Cross-functional Team Leadership",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
+      {
+        "name": "Emergency Response Support",
+        "endorsements": 0,
+        "passed_assessment": null
+      },
       {
         "name": "Higher Education Teaching",
         "endorsements": 0,
@@ -154,26 +184,6 @@
       },
       {
         "name": "Ciencias ambientales",
-        "endorsements": 0,
-        "passed_assessment": null
-      },
-      {
-        "name": "Hidrología",
-        "endorsements": 0,
-        "passed_assessment": null
-      },
-      {
-        "name": "Meteorología",
-        "endorsements": 0,
-        "passed_assessment": null
-      },
-      {
-        "name": "Analítica de datos",
-        "endorsements": 0,
-        "passed_assessment": null
-      },
-      {
-        "name": "Ingeniería",
         "endorsements": 0,
         "passed_assessment": null
       },
@@ -263,8 +273,8 @@
     ],
     "emails_in_bio": null,
     "potential_emails": null,
-    "profile_photo": "https://media.licdn.com/dms/image/v2/D4E03AQENiRi-iqX-Vg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718229170047?e=1755734400&v=beta&t=rsb93erGkovra_JfpWfFkUPimTGBm4gcOZe0E5OZArM",
-    "banner_photo": "https://media.licdn.com/dms/image/v2/C5616AQERXfSWDzFDlg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1517547657134?e=1755734400&v=beta&t=gO38xHrhhpKgZbc0eFqB8lBnUgPOKGD6Aq_4xltO_5Q",
+    "profile_photo": "https://media.licdn.com/dms/image/v2/D4E03AQENiRi-iqX-Vg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718229170047?e=1757548800&v=beta&t=kMASgYqjdwwepFHFi_PaZjYetsZBNHn2ECY4FdzDw0w",
+    "banner_photo": "https://media.licdn.com/dms/image/v2/C5616AQERXfSWDzFDlg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1517547657134?e=1757548800&v=beta&t=smGuapXseCybW1soOzYk2yQjSpVKJiHoEoKcGHk3e6o",
     "connection_created_at": null,
     "connection_email": "fejgomezca@unal.edu.co",
     "connection_phone_numbers": [

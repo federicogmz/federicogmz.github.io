@@ -17,7 +17,7 @@
     "pages": "51-66",
     "publisher": "Universidad de Antioquia",
     "description": "Landslides triggered by rainfall are one of the most frequent causes of disasters in tropical countries and mountainous terrains. Recent studies show an upsurge in landslide occurrence as an expected impact of human-induced climate change. This paper presents the analysis and implementation of two different physically-based models, SHALSTAB and TRIGRS, to evaluate the effect of rainfall on landslide hazard assessment in the north-western Colombian Andes. Intensity-Duration-Frequency curves were used in climate change scenarios for different return periods. According to the results, although higher rainfall intensities increase, landslide occurrence does not escalate in a direct or proportional relationship. Considering a steady infiltration process (SHALSTAB), the results show an expansion of d unstable areas, compared with a transient infiltration process (TRIGRS). A greater influence of rainfall duration instead of rainfall intensity was observed. The results highlight the need for studies that incorporate the scenarios of variability and climate change in the hazard assessment and land planning in the long term.",
-    "citations": 40
+    "citations": 41
   },
   {
     "title": "Morphometrical analysis of torrential flows-prone catchments in tropical and mountainous terrain of the Colombian Andes by machine learning techniques",
@@ -35,8 +35,8 @@
     "volume": "105",
     "pages": "983-1012",
     "publisher": "Springer Netherlands",
-    "description": "               Assessment of susceptibility to torrential flows at the catchment scale is a necessary step for prioritising zones that can be identified by hazard and risk maps. In the Andean region of Colombia, where these phenomena are common and highly destructive, few studies have been carried out on the subject. Considering that the effects of torrential flows will likely increase in the future due to extreme weather events and urbanisation of low prone areas, effective land management plans should include the assessment of susceptibility to this type of event. In this study, machine learning techniques were applied with morphometric parameters of mountainous catchments in the northern Colombian Andes to analyse torrential susceptibility in tropical environments. Several feature selection methods were implemented using statistics to evaluate the relationship between morphometric parameters and torrential …",
-    "citations": 31
+    "description": "Assessment of susceptibility to torrential flows at the catchment scale is a necessary step for prioritising zones that can be identified by hazard and risk maps. In the Andean region of Colombia, where these phenomena are common and highly destructive, few studies have been carried out on the subject. Considering that the effects of torrential flows will likely increase in the future due to extreme weather events and urbanisation of low prone areas, effective land management plans should include the assessment of susceptibility to this type of event. In this study, machine learning techniques were applied with morphometric parameters of mountainous catchments in the northern Colombian Andes to analyse torrential susceptibility in tropical environments. Several feature selection methods were implemented using statistics to evaluate the relationship between morphometric parameters and torrential susceptibility …",
+    "citations": 33
   },
   {
     "title": "Hazard analysis of hydrometeorological concatenated processes in the Colombian Andes",
@@ -55,7 +55,7 @@
     "journal": "Advances in Natural Hazards and Hydrological Risks: Meeting the Challenge: Proceedings of the 2nd International Workshop on Natural Hazards (NATHAZ'19), Pico Island—Azores 2019",
     "pages": "7-10",
     "publisher": "Springer International Publishing",
-    "description": " The Colombian Andean region is characterized for its tropical climate and mountainous topography, where common short-duration and high-intensity rainfall events trigger progressive hydrometeorological phenomena that cause rapid concentration of streamflow as flash floods which, as their erosion capacity increases, may remobilize sediments and trigger slides creating debris floods torrents. When rainfall events exceed critical slope stability thresholds, clusters of landslides are triggered, especially on coarse residual soils increasing the sediment concentration and altering the fluid properties into a viscous mass surge of water and sediments. The final deposition of these materials is often located in basin fans that are usually highly populated resulting in huge disasters with high economic losses and fatalities. The most recent reports in Colombia include the events of Salgar in May of 2015 with 104 fatalities …",
+    "description": "The Colombian Andean region is characterized for its tropical climate and mountainous topography, where common short-duration and high-intensity rainfall events trigger progressive hydrometeorological phenomena that cause rapid concentration of streamflow as flash floods which, as their erosion capacity increases, may remobilize sediments and trigger slides creating debris floods torrents. When rainfall events exceed critical slope stability thresholds, clusters of landslides are triggered, especially on coarse residual soils increasing the sediment concentration and altering the fluid properties into a viscous mass surge of water and sediments. The final deposition of these materials is often located in basin fans that are usually highly populated resulting in huge disasters with high economic losses and fatalities. The most recent reports in Colombia include the events of Salgar in May of 2015 with 104 fatalities …",
     "citations": 15
   },
   {
@@ -98,7 +98,7 @@
   },
   {
     "title": "Evaluación de la amenaza por avenidas torrenciales en el departamento de Antioquia a escala de cuenca",
-    "link": "https://books.google.com/books?hl=en&lr=&id=5kjAEAAAQBAJ&oi=fnd&pg=PA92&dq=info:aHzwNeXLWV0J:scholar.google.com&ots=Vmtii6GiNL&sig=mKxndbwbIT7NT8Ll9B__FfNs6U8",
+    "link": "https://books.google.com/books?hl=en&lr=&id=5kjAEAAAQBAJ&oi=fnd&pg=PA92&dq=info:aHzwNeXLWV0J:scholar.google.com&ots=VmtkkcAjIL&sig=ugxCvfAfg9MLEEv_UU_uG9wBcCQ",
     "authors": [
       "Edier Aristizábal",
       "Federico Gómez Cardona",
@@ -162,7 +162,7 @@
   },
   {
     "title": "Debris-flow processes routing in mountain terrains and tropical environments for hazard assessment",
-    "link": "https://scholar.google.com/scholar?cluster=17704548562646450902&hl=en&oi=scholarr",
+    "link": "https://repositorio.unal.edu.co/handle/unal/83399",
     "authors": [
       "Federico Gomez Cardona"
     ],
