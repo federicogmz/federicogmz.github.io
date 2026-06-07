@@ -3,6 +3,7 @@ name: Monthly Data Refresh
 on:
   schedule:
     - cron: '0 0 1 * *'  # Monthly on the 1st at 00:00 UTC
+  workflow_dispatch:     # Allow manual trigger
 
 jobs:
   refresh-data:
@@ -23,11 +24,33 @@ jobs:
       - name: Fetch Google Scholar publications
         run: npm run fetch-scholar
 
-      - name: Commit updated publications
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install "staffspy[browser]"
+
+      - name: Decode LinkedIn Session
+        if: ${{ secrets.LINKEDIN_SESSION_B64 != '' }}
+        run: |
+          echo "${{ secrets.LINKEDIN_SESSION_B64 }}" | base64 --decode > data/session.pkl
+
+      - name: Fetch LinkedIn profile data
+        if: ${{ secrets.LINKEDIN_SESSION_B64 != '' }}
+        continue-on-error: true
+        run: |
+          python scripts/fetch_linkedin.py < /dev/null
+
+      - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'chore: monthly publications refresh'
+          commit_message: 'chore: monthly data refresh (scholar and linkedin)'
           file_pattern: |-
             data/gscholar.json
+            data/linkedin.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
