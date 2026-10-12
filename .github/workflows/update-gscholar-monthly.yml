@@ -8,15 +8,19 @@ on:
 jobs:
   refresh-data:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      HAS_LINKEDIN_SESSION: ${{ secrets.LINKEDIN_SESSION_B64 != '' }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '16'
+          node-version: '22'
 
       - name: Install JS dependencies
         run: npm ci
@@ -35,18 +39,20 @@ jobs:
           pip install "staffspy[browser]"
 
       - name: Decode LinkedIn Session
-        if: ${{ secrets.LINKEDIN_SESSION_B64 != '' }}
+        if: env.HAS_LINKEDIN_SESSION == 'true'
+        env:
+          LINKEDIN_SESSION_B64: ${{ secrets.LINKEDIN_SESSION_B64 }}
         run: |
-          echo "${{ secrets.LINKEDIN_SESSION_B64 }}" | base64 --decode > data/session.pkl
+          echo "$LINKEDIN_SESSION_B64" | base64 --decode > data/session.pkl
 
       - name: Fetch LinkedIn profile data
-        if: ${{ secrets.LINKEDIN_SESSION_B64 != '' }}
+        if: env.HAS_LINKEDIN_SESSION == 'true'
         continue-on-error: true
         run: |
           python scripts/fetch_linkedin.py < /dev/null
 
       - name: Commit updated data
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: monthly data refresh (scholar and linkedin)'
           file_pattern: |-
