@@ -1,216 +1,624 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Federico Gómez — Geoscientist specializing in geohazards, remote sensing, UAS operations, and geospatial data science in the tropical Andes.">
-    <meta name="theme-color" content="#0d0f14">
+    <title>Federico Gómez Cardona | Computational Geoscientist</title>
+    <meta name="description" content="Federico Gómez Cardona — Computational Geoscientist, Remote Sensing Lead at SIATA, and Adjunct Professor at Universidad EAFIT. Physically-based modeling, Earth AI, and real-time early warning.">
     <meta name="author" content="Federico Gómez Cardona">
-    <meta property="og:title" content="Federico Gómez | Geoscientist">
-    <meta property="og:description"
-        content="Geohazards · Remote Sensing · UAS · Geospatial Data Science — Medellín, Colombia">
+    <meta name="theme-color" content="#0a0d12">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://federicogmz.github.io/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
     <meta property="og:url" content="https://federicogmz.github.io/">
-    <title>Federico Gómez | Geoscientist</title>
+    <meta property="og:title" content="Federico Gómez Cardona | Computational Geoscientist">
+    <meta property="og:description" content="Physically-based modeling, Earth AI, and real-time early warning systems in the tropical Andes.">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://federicogmz.github.io/">
+    <meta name="twitter:title" content="Federico Gómez Cardona | Computational Geoscientist">
+    <meta name="twitter:description" content="Physically-based modeling, Earth AI, and real-time early warning systems in the tropical Andes.">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Federico Gómez Cardona",
+      "jobTitle": "Remote Sensing Lead & Adjunct Professor",
+      "worksFor": [
+        {
+          "@type": "Organization",
+          "name": "Sistema de Alerta Temprana del Valle de Aburrá (SIATA)"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "Universidad EAFIT"
+        }
+      ],
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Universidad Nacional de Colombia"
+      },
+      "url": "https://federicogmz.github.io/",
+      "sameAs": [
+        "https://github.com/federicogmz",
+        "https://scholar.google.com/citations?user=O0ef_-YAAAAJ&hl=en",
+        "https://orcid.org/0000-0002-8525-4354",
+        "https://www.linkedin.com/in/federicogmz/"
+      ]
+    }
+    </script>
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
 <body>
-    <!-- Navigation -->
+
+    <!-- Site Navigation -->
     <nav class="site-nav" id="site-nav">
         <div class="nav-inner">
-            <a class="nav-brand" href="#hero">FG</a>
-            <ul class="nav-links">
+            <a class="nav-brand" href="#hero">
+                <span class="brand-monogram">FG</span>
+                <span class="brand-text">Federico Gómez</span>
+            </a>
+            <ul class="nav-links" id="nav-links">
                 <li><a class="nav-link" href="#about">About</a></li>
-                <li><a class="nav-link" href="#expertise">Expertise</a></li>
-                <li><a class="nav-link" href="#education">Education</a></li>
-                <li><a class="nav-link" href="#work">Work</a></li>
-                <li><a class="nav-link" href="#repositories">Repos</a></li>
+                <li><a class="nav-link" href="#software">Software</a></li>
+                <li><a class="nav-link" href="#impact">Operational Impact</a></li>
                 <li><a class="nav-link" href="#publications">Publications</a></li>
-                <li><a class="nav-link" href="#contact-footer">Contact</a></li>
+                <li><a class="nav-link" href="#experience">Experience</a></li>
+                <li><a class="nav-link" href="#skills">Skills</a></li>
+                <li><a class="nav-link nav-link-cta" href="#contact">Contact</a></li>
             </ul>
-            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
                 <span></span><span></span><span></span>
             </button>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="hero">
-        <div class="hero-bg-mesh"></div>
-        <div class="hero-content reveal">
-            <img id="hero-photo" alt="Profile Photo" class="hero-photo">
-            <div class="hero-text">
-                <p class="hero-location"><i class="fas fa-map-marker-alt"></i> Medellín, Colombia</p>
-                <h1 id="hero-name">Federico Gómez</h1>
-                <p id="hero-headline" class="tagline">Geoscientist · Geohazards · Remote Sensing · UAS</p>
-                <div class="hero-badges">
-                    <span class="hero-badge"><i class="fas fa-mountain"></i> Geohazards</span>
-                    <span class="hero-badge"><i class="fas fa-satellite"></i> Remote Sensing</span>
-                    <span class="hero-badge"><i class="fas fa-drone-alt"></i> UAS</span>
-                    <span class="hero-badge"><i class="fas fa-database"></i> Geo Data Science</span>
-                </div>
-                <div class="hero-cta">
-                    <a href="#about" class="btn btn-primary">Explore my work</a>
-                    <a href="#contact-footer" class="btn btn-ghost">Get in touch</a>
-                </div>
+    <header id="hero" class="hero-section">
+        <div class="hero-glow"></div>
+        <div class="hero-container">
+            <div class="hero-status">
+                <span class="status-dot"></span>
+                <span class="status-text">Operational Multi-Hazard Research &amp; Open Source Software</span>
+            </div>
+
+            <h1 class="hero-title">
+                Federico Gómez Cardona
+            </h1>
+
+            <p class="hero-subtitle">
+                Computational Geoscientist · Physically-Based Modeling · Earth AI
+            </p>
+
+            <p class="hero-lead">
+                I design real-time early warning pipelines fusing <strong>numerical slope stability models</strong>, 
+                <strong>dual weather radar grids</strong>, <strong>dense IoT telemetry</strong>, 
+                and <strong>drone photogrammetry</strong> to monitor and forecast landslides and debris flows across the tropical Andes.
+            </p>
+
+            <div class="hero-meta-pills">
+                <span class="meta-pill"><i class="fas fa-satellite-dish"></i> Remote Sensing Lead @ SIATA</span>
+                <span class="meta-pill"><i class="fas fa-chalkboard-user"></i> Adjunct Professor @ EAFIT</span>
+                <span class="meta-pill"><i class="fas fa-graduation-cap"></i> M.Sc. Water Resources Engineering</span>
+                <span class="meta-pill"><i class="fas fa-map-marker-alt"></i> Medellín, Colombia</span>
+            </div>
+
+            <div class="hero-actions">
+                <a href="#software" class="btn btn-primary">
+                    <i class="fas fa-code-branch"></i> Research Software
+                </a>
+                <a href="#publications" class="btn btn-secondary">
+                    <i class="fas fa-book"></i> Publications
+                </a>
+                <a href="https://github.com/federicogmz" target="_blank" rel="noopener" class="btn btn-ghost">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="mailto:fjgomezc@eafit.edu.co" class="btn btn-ghost">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+            </div>
+
+            <div class="hero-socials">
+                <a href="https://github.com/federicogmz" target="_blank" rel="noopener" aria-label="GitHub Profile" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://scholar.google.com/citations?user=O0ef_-YAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar Profile" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                <a href="https://orcid.org/0000-0002-8525-4354" target="_blank" rel="noopener" aria-label="ORCID Profile" title="ORCID"><i class="fab fa-orcid"></i></a>
+                <a href="https://www.linkedin.com/in/federicogmz/" target="_blank" rel="noopener" aria-label="LinkedIn Profile" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:fjgomezc@eafit.edu.co" aria-label="Email Federico Gómez" title="Email"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
-        <div class="hero-scroll-hint">
-            <span>Scroll</span>
-            <i class="fas fa-chevron-down"></i>
+    </header>
+
+    <!-- Metrics Banner (Social Proof) -->
+    <section class="metrics-banner">
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <div class="metric-number">4.2M+</div>
+                <div class="metric-label">Inhabitants Covered by SIATA Early Warning</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-number">1,000+</div>
+                <div class="metric-label">IoT Sensor Stations &amp; Dual Radars</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-number">4</div>
+                <div class="metric-label">Core Open Source Research Repos</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-number" id="metric-pubs">10+</div>
+                <div class="metric-label">Indexed Publications &amp; Research Works</div>
+            </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="section reveal">
-        <div class="section-label">About</div>
-        <h2>About Me</h2>
-        <div id="about-bio" class="section-desc">
-            <p>I am a Colombian geoscientist dedicated to understanding and mitigating geological and
-                hydrometeorological hazards in the tropical Andes.</p>
-            <p>My academic path combines a B.Sc. in Geological Engineering (2017) and an M.Sc. in Water Resources
-                Engineering (2022) from the Universidad Nacional de Colombia.</p>
-            <p>From 2017 to 2022 I worked at the same university, producing susceptibility maps, numerical simulations,
-                and satellite-based analyses for landslides, floods, and debris flows across diverse Colombian terrains.
-            </p>
-            <p>Since 2021 I have been part of Medellín's Sistema de Alerta Temprana (SIATA), where I design real-time
-                algorithms that fuse field instrumentation, remote sensing, and machine learning to issue early warnings
-                for landslide events.</p>
-            <p>In 2024 I joined Universidad EAFIT as an adjunct professor, leading a postgraduate course on geotechnical
-                instrumentation that blends theory with hands-on interpretation of sensor data from an active slope case
-                study.</p>
-            <p>I routinely manage interdisciplinary projects, process large geospatial datasets in Python and R, conduct
-                UAS surveys in the field, and translate technical findings into actionable guidance for risk managers.</p>
-        </div>
-    </section>
-
-    <!-- Expertise Section -->
-    <section id="expertise" class="section reveal">
-        <div class="section-label">Expertise</div>
-        <h2>What I Do</h2>
-        <p class="section-intro">My work spans four interconnected domains — each informing the others to build a more complete picture of Earth's hazardous processes.</p>
-        <div class="expertise-grid">
-            <div class="expertise-card reveal-child">
-                <div class="expertise-icon">
-                    <i class="fas fa-mountain"></i>
-                </div>
-                <h3>Geohazards</h3>
-                <p>Physically-based modeling of landslides, debris flows, and floods. Real-time early warning algorithm
-                    design fusing rainfall thresholds, instrumentation, and ML classifiers.</p>
-                <div class="skill-tags">
-                    <span class="tag">SHALSTAB</span>
-                    <span class="tag">TRIGRS</span>
-                    <span class="tag">FLO-2D</span>
-                    <span class="tag">Early Warning</span>
-                    <span class="tag">Hazard Mapping</span>
-                </div>
+    <section id="about" class="section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Background</span>
+                <h2 class="section-title">Research &amp; Engineering Focus</h2>
             </div>
-            <div class="expertise-card reveal-child">
-                <div class="expertise-icon">
-                    <i class="fas fa-satellite"></i>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Natural hazards in steep tropical mountain environments present unique physical complexities: intense localized rainfall cells, deeply weathered tropical soils, and dense urban settlements on steep terrain.
+                    </p>
+                    <p>
+                        My work bridges the gap between <strong>theoretical physics-based mechanics</strong> and <strong>high-throughput operational software</strong>. At <strong>SIATA</strong> (Medellín's multi-hazard early warning system), I lead remote sensing workflows, integrating satellite SAR/multispectral imagery, drone surveys, and operational weather radar data to forecast instability before catastrophic failures occur.
+                    </p>
+                    <p>
+                        At <strong>Universidad EAFIT</strong>, I lecture graduate engineers on geotechnical instrumentation, sensor network interpretation, and physical telemetry analysis on active slopes.
+                    </p>
                 </div>
-                <h3>Remote Sensing</h3>
-                <p>Multispectral and SAR image processing for land cover mapping and ground deformation monitoring.
-                    Change detection and time-series analysis at regional scale.</p>
-                <div class="skill-tags">
-                    <span class="tag">Google Earth Engine</span>
-                    <span class="tag">SAR / InSAR</span>
-                    <span class="tag">Multispectral</span>
-                    <span class="tag">Change Detection</span>
-                    <span class="tag">SNAP</span>
-                </div>
-            </div>
-            <div class="expertise-card reveal-child">
-                <div class="expertise-icon">
-                    <i class="fas fa-helicopter"></i>
-                </div>
-                <h3>UAS / Drones</h3>
-                <p>Field photogrammetric surveys for high-resolution DEM generation, orthomosaic production, and
-                    volumetric change analysis in landslide and construction sites.</p>
-                <div class="skill-tags">
-                    <span class="tag">Photogrammetry</span>
-                    <span class="tag">OpenDroneMap</span>
-                    <span class="tag">Point Clouds</span>
-                    <span class="tag">Orthomosaics</span>
-                    <span class="tag">DEM Generation</span>
-                </div>
-            </div>
-            <div class="expertise-card reveal-child">
-                <div class="expertise-icon">
-                    <i class="fas fa-code"></i>
-                </div>
-                <h3>Geospatial Data Science</h3>
-                <p>End-to-end Python and R pipelines for geospatial analysis, machine learning susceptibility mapping,
-                    spatial statistics, and interactive visualization.</p>
-                <div class="skill-tags">
-                    <span class="tag">Python</span>
-                    <span class="tag">GeoPandas</span>
-                    <span class="tag">Rasterio</span>
-                    <span class="tag">scikit-learn</span>
-                    <span class="tag">QGIS / ArcGIS Pro</span>
+                <div class="about-focus-cards">
+                    <div class="focus-card">
+                        <i class="fas fa-mountain focus-icon"></i>
+                        <h3>Physical Slope Stability</h3>
+                        <p>Transient infiltration, steady-state pore pressure distribution, and distributed limit-equilibrium models (SHALSTAB, TRIGRS).</p>
+                    </div>
+                    <div class="focus-card">
+                        <i class="fas fa-satellite focus-icon"></i>
+                        <h3>Earth Observation &amp; UAS</h3>
+                        <p>High-resolution photogrammetry, thermal infrared, multispectral UAV mapping, and radar-based nowcasting.</p>
+                    </div>
+                    <div class="focus-card">
+                        <i class="fas fa-brain focus-icon"></i>
+                        <h3>Scientific Python &amp; ML</h3>
+                        <p>Physics-informed modeling, morphometric basin classification, Numba/NumPy accelerated numerical kernels.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Education Section -->
-    <section id="education" class="section reveal">
-        <div class="section-label">Education</div>
-        <h2>Education</h2>
-        <p class="section-intro">Academic background highlighting degrees and institutions.</p>
-        <div id="education-list" class="timeline-grid"></div>
-    </section>
+    <!-- Featured Research Software -->
+    <section id="software" class="section section-dark">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Open Source</span>
+                <h2 class="section-title">Featured Research Software</h2>
+                <p class="section-desc">Production-grade open source tools developed for geohazard modeling, remote sensing, and disaster risk assessment.</p>
+            </div>
 
-    <!-- Work Section -->
-    <section id="work" class="section reveal">
-        <div class="section-label">Experience</div>
-        <h2>Work</h2>
-        <p class="section-intro">Professional experience and roles I've held.</p>
-        <div id="work-list" class="timeline-grid"></div>
-        <div id="skills-list" class="skills-cloud"></div>
-    </section>
+            <div class="software-grid">
+                <!-- SHALSTAB -->
+                <article class="software-card">
+                    <div class="card-header">
+                        <div class="card-title-group">
+                            <h3 class="card-title">shalstab</h3>
+                            <a href="https://pypi.org/project/shalstab/" target="_blank" rel="noopener"><img src="https://img.shields.io/pypi/v/shalstab?color=blue&amp;style=flat-square" alt="PyPI version"></a>
+                            <a href="https://github.com/federicogmz/shalstab-python/actions" target="_blank" rel="noopener"><img src="https://github.com/federicogmz/shalstab-python/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI Status"></a>
+                            <span class="badge badge-license">GPL-3.0</span>
+                        </div>
+                        <a href="https://github.com/federicogmz/shalstab-python" target="_blank" rel="noopener" class="card-link" aria-label="shalstab GitHub repository">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="card-description">
+                        High-performance Python implementation of the SHALSTAB physically-based landslide susceptibility model. Designed for large geospatial DEM grids with Numba-accelerated numerical kernels and interactive Rich CLI.
+                    </p>
+                    <div class="install-snippet">
+                        <code>pip install shalstab</code>
+                        <button class="copy-btn" data-copy="pip install shalstab" aria-label="Copy install command">
+                            <i class="far fa-copy"></i>
+                        </button>
+                    </div>
+                    <div class="card-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">NumPy</span>
+                        <span class="tag">Numba</span>
+                        <span class="tag">Rasterio</span>
+                        <span class="tag">Rich CLI</span>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://github.com/federicogmz/shalstab-python" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        <a href="https://pypi.org/project/shalstab/" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">
+                            <i class="fas fa-box-open"></i> PyPI
+                        </a>
+                    </div>
+                </article>
 
-    <!-- Repositories Section -->
-    <section id="repositories" class="section reveal">
-        <div class="section-label">Code</div>
-        <h2>Repositories</h2>
-        <p class="section-intro">Most recently updated public code repositories on GitHub, reflecting ongoing work and
-            contributions.</p>
-        <div id="repo-list">
-            <!-- GitHub repos will be loaded here -->
+                <!-- RAPTOR -->
+                <article class="software-card">
+                    <div class="card-header">
+                        <div class="card-title-group">
+                            <h3 class="card-title">raptor</h3>
+                            <a href="https://github.com/federicogmz/raptor/actions" target="_blank" rel="noopener"><img src="https://github.com/federicogmz/raptor/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI Status"></a>
+                            <span class="badge badge-license">MIT</span>
+                        </div>
+                        <a href="https://github.com/federicogmz/raptor" target="_blank" rel="noopener" class="card-link" aria-label="raptor GitHub repository">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="card-description">
+                        Open-source containerized photogrammetry pipeline for DJI enterprise UAVs (M3T, H20T, M3M). Generates RGB, radiometric thermal, and multispectral orthomosaics with an interactive Leaflet web viewer for post-disaster damage assessment.
+                    </p>
+                    <div class="install-snippet">
+                        <code>git clone https://github.com/federicogmz/raptor.git</code>
+                        <button class="copy-btn" data-copy="git clone https://github.com/federicogmz/raptor.git" aria-label="Copy clone command">
+                            <i class="far fa-copy"></i>
+                        </button>
+                    </div>
+                    <div class="card-tags">
+                        <span class="tag">FastAPI</span>
+                        <span class="tag">Leaflet</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">UAV Photogrammetry</span>
+                        <span class="tag">OpenCV</span>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://github.com/federicogmz/raptor" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">
+                            <i class="fab fa-github"></i> Code &amp; Docs
+                        </a>
+                    </div>
+                </article>
+
+                <!-- TRIGRS-PYWRAP -->
+                <article class="software-card">
+                    <div class="card-header">
+                        <div class="card-title-group">
+                            <h3 class="card-title">trigrs-pywrap</h3>
+                            <a href="https://github.com/federicogmz/trigrs-pywrap/actions" target="_blank" rel="noopener"><img src="https://github.com/federicogmz/trigrs-pywrap/actions/workflows/ci.yml/badge.svg?branch=master" alt="CI Status"></a>
+                            <span class="badge badge-license">GPL-3.0</span>
+                        </div>
+                        <a href="https://github.com/federicogmz/trigrs-pywrap" target="_blank" rel="noopener" class="card-link" aria-label="trigrs-pywrap GitHub repository">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="card-description">
+                        Python wrapper and automated pipeline for the USGS TRIGRS Fortran model (Transient Rainfall Infiltration and Grid-Based Regional Slope-Stability). Automates raster pre-processing, temporal rainstorm curves, and stability output extraction.
+                    </p>
+                    <div class="install-snippet">
+                        <code>git clone https://github.com/federicogmz/trigrs-pywrap.git</code>
+                        <button class="copy-btn" data-copy="git clone https://github.com/federicogmz/trigrs-pywrap.git" aria-label="Copy clone command">
+                            <i class="far fa-copy"></i>
+                        </button>
+                    </div>
+                    <div class="card-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">USGS Fortran</span>
+                        <span class="tag">Transient Infiltration</span>
+                        <span class="tag">GDAL</span>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://github.com/federicogmz/trigrs-pywrap" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </article>
+
+                <!-- DEBRIS-FLOW-SUSCEPTIBILITY -->
+                <article class="software-card">
+                    <div class="card-header">
+                        <div class="card-title-group">
+                            <h3 class="card-title">debris-flow-susceptibility</h3>
+                            <span class="badge badge-primary">Python 3</span>
+                            <span class="badge badge-license">GPL-3.0</span>
+                        </div>
+                        <a href="https://github.com/federicogmz/debris-flow-susceptibility" target="_blank" rel="noopener" class="card-link" aria-label="debris-flow-susceptibility GitHub repository">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="card-description">
+                        Geospatial and machine learning workflows for assessing torrential flow and debris-flow susceptibility from basin morphometry. Implements reproducible training pipelines, feature engineering, and cross-validation in tropical mountainous terrains.
+                    </p>
+                    <div class="install-snippet">
+                        <code>git clone https://github.com/federicogmz/debris-flow-susceptibility.git</code>
+                        <button class="copy-btn" data-copy="git clone https://github.com/federicogmz/debris-flow-susceptibility.git" aria-label="Copy command">
+                            <i class="far fa-copy"></i>
+                        </button>
+                    </div>
+                    <div class="card-tags">
+                        <span class="tag">scikit-learn</span>
+                        <span class="tag">GeoPandas</span>
+                        <span class="tag">Morphometry</span>
+                        <span class="tag">Machine Learning</span>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://github.com/federicogmz/debris-flow-susceptibility" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="center-cta">
+                <a href="https://github.com/federicogmz?tab=repositories" target="_blank" rel="noopener" class="btn btn-secondary">
+                    <i class="fab fa-github"></i> View All Repositories on GitHub
+                </a>
+            </div>
         </div>
-        <a href="https://github.com/federicogmz" target="_blank" class="btn btn-ghost view-all-btn">
-            <i class="fab fa-github"></i> View all on GitHub
-        </a>
+    </section>
+
+    <!-- Operational Impact Section -->
+    <section id="impact" class="section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Real-World Deployment</span>
+                <h2 class="section-title">Operational Early Warning &amp; Field Missions</h2>
+                <p class="section-desc">Translating advanced physical algorithms and sensor networks into lifesaving public infrastructure.</p>
+            </div>
+
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <div class="impact-icon"><i class="fas fa-satellite-dish"></i></div>
+                    <h3>SIATA Multi-Hazard Early Warning</h3>
+                    <p>
+                        Continuous operational monitoring of the Aburrá Valley (10 metropolitan municipalities). Fusing dual weather radar precipitation estimates with real-time geotechnical sensors to issue early evacuation alerts to disaster risk agencies (DAGRD, fire departments).
+                    </p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon"><i class="fas fa-helicopter"></i></div>
+                    <h3>UAS Photogrammetry &amp; Emergency Response</h3>
+                    <p>
+                        High-altitude drone operations over active landslides and critical catchments. Generating centimetre-accurate 3D point clouds, digital surface models, and thermal mapping for structural damage zonation and volumetric displacement tracking.
+                    </p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Academic Mentorship &amp; Geotechnical Teaching</h3>
+                    <p>
+                        Graduate instruction in geotechnical instrumentation at Universidad EAFIT. Bridging theory with practical sensor calibration, inclinometer readings, piezometric analysis, and automated warning thresholds.
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Publications Section -->
-    <section id="publications" class="section reveal">
-        <div class="section-label">Research</div>
-        <h2>Publications</h2>
-        <p class="section-intro">Key publications from my research career. Click to explore the details.</p>
-        <div id="publications-list">Loading publications...</div>
+    <section id="publications" class="section section-dark">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Peer-Reviewed Research</span>
+                <h2 class="section-title">Selected Publications</h2>
+                <p class="section-desc">Scientific articles, conference proceedings, and graduate research indexed in Google Scholar.</p>
+            </div>
+
+            <div class="pub-filter-bar">
+                <div class="search-input-wrapper">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="pub-search" placeholder="Search by title, author, or keyword..." aria-label="Search publications">
+                </div>
+                <a href="https://scholar.google.com/citations?user=O0ef_-YAAAAJ&amp;hl=en" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">
+                    <i class="fas fa-external-link-alt"></i> Full Google Scholar Profile
+                </a>
+            </div>
+
+            <div id="publications-container" class="publications-list">
+                <div class="loading-state">
+                    <i class="fas fa-spinner fa-spin"></i> Loading publications...
+                </div>
+            </div>
+
+            <noscript>
+                <style>#publications-container { display: none !important; }</style>
+                <div class="fallback-card">
+                    <p>JavaScript is disabled. Explore all peer-reviewed research directly on:</p>
+                    <a href="https://scholar.google.com/citations?user=O0ef_-YAAAAJ&amp;hl=en" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:1rem;">
+                        <i class="fas fa-graduation-cap"></i> View Federico Gómez on Google Scholar
+                    </a>
+                </div>
+            </noscript>
+        </div>
     </section>
 
-    <!-- Combined Contact & Footer -->
-    <footer class="section" id="contact-footer">
-        <div class="section-label">Contact</div>
-        <h2>Get in Touch</h2>
-        <p class="section-intro">Open to research collaborations, consulting opportunities, or just a conversation about
-            geohazards, remote sensing, and drones.</p>
-        <div id="contact-links" class="contact-links"></div>
-        <p class="footer-copy">© 2026 Federico Gómez Cardona</p>
+    <!-- Experience & Education -->
+    <section id="experience" class="section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Career &amp; Education</span>
+                <h2 class="section-title">Experience &amp; Academic Path</h2>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 — Present</span>
+                        <h3 class="timeline-title">Remote Sensing Lead &amp; Geoscientist</h3>
+                        <h4 class="timeline-org">Sistema de Alerta Temprana del Valle de Aburrá (SIATA)</h4>
+                        <p>Leading remote sensing workflows, drone mapping operations, and real-time hazard forecasting pipelines fusing weather radar, IoT telemetry, and physically-based algorithms.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 — Present</span>
+                        <h3 class="timeline-title">Adjunct Professor</h3>
+                        <h4 class="timeline-org">Universidad EAFIT</h4>
+                        <p>Leading postgraduate coursework in Geotechnical Instrumentation, field monitoring interpretation, sensor calibration, and early warning threshold modeling.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2017 — 2022</span>
+                        <h3 class="timeline-title">Geoscientist &amp; Research Engineer</h3>
+                        <h4 class="timeline-org">Universidad Nacional de Colombia</h4>
+                        <p>Research on landslide susceptibility, multi-hazard simulations (landslides, flash floods, debris flows), and satellite-based analysis across diverse Colombian mountainous terrains.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022</span>
+                        <h3 class="timeline-title">M.Sc. in Water Resources Engineering</h3>
+                        <h4 class="timeline-org">Universidad Nacional de Colombia</h4>
+                        <p>Thesis on debris-flow routing in mountain terrains and tropical environments for hazard assessment using multi-model numerical benchmarking.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2017</span>
+                        <h3 class="timeline-title">B.Sc. in Geological Engineering</h3>
+                        <h4 class="timeline-org">Universidad Nacional de Colombia</h4>
+                        <p>Foundation in engineering geology, geomorphology, structural geology, geotechnics, and spatial risk analysis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Stack Grid -->
+    <section id="skills" class="section section-dark">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Toolkit</span>
+                <h2 class="section-title">Technical Skills &amp; Competencies</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <h3><i class="fas fa-laptop-code"></i> Scientific Computing &amp; ML</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">NumPy</span>
+                        <span class="skill-badge">Numba</span>
+                        <span class="skill-badge">SciPy</span>
+                        <span class="skill-badge">scikit-learn</span>
+                        <span class="skill-badge">GeoPandas</span>
+                        <span class="skill-badge">Rasterio</span>
+                        <span class="skill-badge">FastAPI</span>
+                        <span class="skill-badge">R</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3><i class="fas fa-layer-group"></i> Physical Modeling Engines</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge">SHALSTAB</span>
+                        <span class="skill-badge">USGS TRIGRS</span>
+                        <span class="skill-badge">FLO-2D</span>
+                        <span class="skill-badge">OpenDroneMap</span>
+                        <span class="skill-badge">NetCDF / HDF5</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3><i class="fas fa-satellite"></i> Earth Observation &amp; GIS</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge">Weather Radar</span>
+                        <span class="skill-badge">SAR / InSAR</span>
+                        <span class="skill-badge">Multispectral UAV</span>
+                        <span class="skill-badge">Thermal UAV</span>
+                        <span class="skill-badge">LiDAR</span>
+                        <span class="skill-badge">Google Earth Engine</span>
+                        <span class="skill-badge">GDAL</span>
+                        <span class="skill-badge">QGIS</span>
+                        <span class="skill-badge">ArcGIS Pro</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3><i class="fas fa-server"></i> Software Engineering &amp; DevOps</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge">Docker</span>
+                        <span class="skill-badge">GitHub Actions CI/CD</span>
+                        <span class="skill-badge">pyproject.toml Packaging</span>
+                        <span class="skill-badge">PyPI Distribution</span>
+                        <span class="skill-badge">Ruff / Formatting</span>
+                        <span class="skill-badge">PostgreSQL / PostGIS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="footer-section">
+        <div class="section-container">
+            <div class="footer-cta">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="footer-title">Let's Connect &amp; Collaborate</h2>
+                <p class="footer-desc">
+                    Open to scientific research collaborations, open source contributions, fellowships, and consulting on geohazards, remote sensing, and early warning systems.
+                </p>
+                <div class="footer-actions">
+                    <a href="mailto:fjgomezc@eafit.edu.co" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Send an Email
+                    </a>
+                    <a href="https://www.linkedin.com/in/federicogmz/" target="_blank" rel="noopener" class="btn btn-secondary">
+                        <i class="fab fa-linkedin-in"></i> Connect on LinkedIn
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-links-grid">
+                <div class="footer-col">
+                    <h3>Profiles</h3>
+                    <ul>
+                        <li><a href="https://github.com/federicogmz" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a></li>
+                        <li><a href="https://scholar.google.com/citations?user=O0ef_-YAAAAJ&amp;hl=en" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i> Google Scholar</a></li>
+                        <li><a href="https://orcid.org/0000-0002-8525-4354" target="_blank" rel="noopener"><i class="fab fa-orcid"></i> ORCID</a></li>
+                        <li><a href="https://www.linkedin.com/in/federicogmz/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Open Source</h3>
+                    <ul>
+                        <li><a href="https://github.com/federicogmz/shalstab-python" target="_blank" rel="noopener">shalstab</a></li>
+                        <li><a href="https://github.com/federicogmz/raptor" target="_blank" rel="noopener">raptor</a></li>
+                        <li><a href="https://github.com/federicogmz/trigrs-pywrap" target="_blank" rel="noopener">trigrs-pywrap</a></li>
+                        <li><a href="https://github.com/federicogmz/debris-flow-susceptibility" target="_blank" rel="noopener">debris-flow-susceptibility</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Institutions</h3>
+                    <ul>
+                        <li><a href="https://siata.gov.co/" target="_blank" rel="noopener">SIATA — Sistema de Alerta Temprana</a></li>
+                        <li><a href="https://www.eafit.edu.co/" target="_blank" rel="noopener">Universidad EAFIT</a></li>
+                        <li><a href="https://unal.edu.co/" target="_blank" rel="noopener">Universidad Nacional de Colombia</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Federico Gómez Cardona · Medellín, Colombia</p>
+                <p class="footer-sub">Built with performance and accessibility in mind · Hosted on GitHub Pages</p>
+            </div>
+        </div>
     </footer>
 
+    <!-- Scripts -->
     <script src="js/main.js"></script>
 </body>
-
 </html>
